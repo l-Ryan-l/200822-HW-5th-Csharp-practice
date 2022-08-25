@@ -45,4 +45,4 @@ Console.WriteLine("Массив: [" + string.Join(", ", array) + "]");
 
 Console.WriteLine($"Максимальное число массива = {FindMax(array)}");
 Console.WriteLine($"Минимальное число массива = {FindMin(array)}");
-Console.WriteLine($"Разница между максимальным и минимальным эллементом массива = {FindMax(array) - FindMin(array)}.");
+Console.WriteLine($"Разница между максимальным и минимальным элементом массива = {FindMax(array) - FindMin(array)}.");
