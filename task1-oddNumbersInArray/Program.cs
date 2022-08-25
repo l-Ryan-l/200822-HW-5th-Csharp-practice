@@ -9,10 +9,9 @@ int[] FillArray(int limitOfArray)
     int[] array = new int[limitOfArray];
     var rnd = new Random();
     for (int i = 0; i < limitOfArray; i++)
-    {
-        array[i] = rnd.Next(100, 1000);
-    }
-    return array;
+            array[i] = rnd.Next(100, 1000);
+            
+        return array;
 } 
 
 int CheckEven (int[] array)
